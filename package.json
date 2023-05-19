@@ -1,0 +1,32 @@
+{
+  "name": "flashback_map",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "lint": "eslint --fix .",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xalsie/FLASHBACK_map.git"
+  },
+  "author": "🐻｜LeGrizzly#0341",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xalsie/FLASHBACK_map/issues"
+  },
+  "homepage": "https://github.com/xalsie/FLASHBACK_map#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "8.8.0",
+    "prettier": "2.8.8"
+  }
+}
