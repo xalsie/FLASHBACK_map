@@ -1,4 +1,5 @@
-// import path from 'path'; // image
+import path from 'path'; // image
+import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
 import express from 'express'; // Import de la dépendance express
 import session from 'express-session';
@@ -12,7 +13,7 @@ const app = express();
 
 // Variable du port
 // const PORT = normalizedPort(process.env.PORT || 3000)
-// const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const shouldCompress = (req, res) => {
 	if (req.headers['x-no-compression']) {
 		return false;
@@ -39,8 +40,8 @@ app.use(express.json());
 
 // Empêcher les requêtes en boucle avec rateLimit
 const limiter = rateLimit({
-	windowMs: 10 * 60 * 1000, // Voici l’équivalent de 10 minutes
-	max: 100, // Le client pourra donc faire 100 requêtes toutes les 10 minutes
+	windowMs: 1 * 60 * 1000, // Voici l’équivalent de 1 minutes
+	max: 1000, // Le client pourra donc faire 100 requêtes toutes les 10 minutes
 });
 //  Cette limite de 100 requêtes toutes les 10 minutes sera effective sur toutes les routes.
 app.use(limiter);
@@ -72,5 +73,13 @@ app.use((req, res, next) => {
 // app.use('/api/auth', userRoutes)
 // app.use('/api/sauces', saucesRoutes)
 // app.use('/api/sauces', likeRoutes)
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+// app.get('*', (req, res) => {
+// 	res.send('Hello World!')
+
+// 	console.log(req.params)
+// });
 
 export default app;
