@@ -4,13 +4,7 @@ $(function () {
 	var showCoordinations = true;
 	var $types = $('.types');
 	var onResize = function () {
-		$types.css({
-			maxHeight:
-				$(window).height() -
-				parseInt($types.css('marginTop'), 10) -
-				parseInt($types.css('marginBottom'), 10) -
-				parseInt($('header').height()) +
-				6,
+		$types.css({maxHeight: $(window).height() - parseInt($types.css('marginTop'), 10) - parseInt($types.css('marginBottom'), 10) - parseInt($('header').height()) + 6,
 		});
 	};
 
@@ -90,7 +84,6 @@ $(function () {
 	var CategoryModel = Backbone.Model.extend({});
 	var CategoriesCollection = Backbone.Collection.extend({
 		model: CategoryModel,
-
 		forView: function (type) {
 			var g = this.groupBy('type');
 			return _(g).map(function (categories, type) {
@@ -105,12 +98,12 @@ $(function () {
 	});
 
 	var categories = (window.cats = new CategoriesCollection([
-		{
-			name: 'Neighborhoods',
-			icon: 'radar/radar_warehouse.png',
-			type: 'General',
-			enabled: false,
-		},
+		// {
+		// 	name: 'Neighborhoods',
+		// 	icon: 'radar/radar_warehouse.png',
+		// 	type: 'General',
+		// 	enabled: false,
+		// },
 		{
 			name: 'Territories',
 			icon: 'General/wall-breach.png',
@@ -118,41 +111,47 @@ $(function () {
 			enabled: true,
 		},
 		{
-			name: 'Neutral',
+			name: 'Zones de vente',
 			icon: 'General/glitches.png',
 			type: 'General',
-			enabled: true,
+			enabled: false,
 		},
-		{
-			name: 'Automotive',
-			icon: 'radar/radar_acsr_race_hotring.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Heists',
-			icon: 'radar/radar_heist.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Legal',
-			icon: 'radar/radar_police_station.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Medical',
-			icon: 'radar/radar_hospital.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Restaurants',
-			icon: 'radar/radar_bar.png',
-			type: 'General',
-			enabled: true,
-		},
+		// {
+		// 	name: 'Neutral',
+		// 	icon: 'General/glitches.png',
+		// 	type: 'General',
+		// 	enabled: true,
+		// },
+		// {
+		// 	name: 'Automotive',
+		// 	icon: 'radar/radar_acsr_race_hotring.png',
+		// 	type: 'General',
+		// 	enabled: true,
+		// },
+		// {
+		// 	name: 'Heists',
+		// 	icon: 'radar/radar_heist.png',
+		// 	type: 'General',
+		// 	enabled: true,
+		// },
+		// {
+		// 	name: 'Legal',
+		// 	icon: 'radar/radar_police_station.png',
+		// 	type: 'General',
+		// 	enabled: true,
+		// },
+		// {
+		// 	name: 'Medical',
+		// 	icon: 'radar/radar_hospital.png',
+		// 	type: 'General',
+		// 	enabled: true,
+		// },
+		// {
+		// 	name: 'Restaurants',
+		// 	icon: 'radar/radar_bar.png',
+		// 	type: 'General',
+		// 	enabled: true,
+		// },
 		/*
 		{
 			name: 'Deprecated',
@@ -168,7 +167,6 @@ $(function () {
 		initialize: function () {
 			this.template = Handlebars.compile($('#categoriesTemplate').html());
 		},
-
 		render: function () {
 			this.$el.html(
 				this.template({
@@ -178,12 +176,10 @@ $(function () {
 			$('#typeDetails').hide();
 			return this;
 		},
-
 		events: {
 			'change input': 'toggleLocations',
 			'click .details': 'showDetails',
 		},
-
 		toggleLocations: function (e) {
 			var $e = $(e.currentTarget),
 				type = $e.val(),
@@ -428,17 +424,7 @@ $(function () {
 			if (!coord) {
 				return null;
 			}
-			return (
-				'tiles/' +
-				this.mapType.toLowerCase() +
-				'/' +
-				zoomLevel +
-				'/' +
-				coord.x +
-				'_' +
-				coord.y +
-				'.png'
-			);
+			return ( 'tiles/' + this.mapType.toLowerCase() + '/' + zoomLevel + '/' + coord.x + '_' + coord.y + '.png');
 		},
 
 		normalizeCoordinates: function (coord, zoom) {
