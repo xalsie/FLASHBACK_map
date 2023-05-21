@@ -1,85 +1,231 @@
-[
-	{
+[{
 		"type": "Territories",
-		"title": "LeGrizzly",
-		"notes": "LeGrizzly is a best.",
-		"wiki_link": "https://github.com/xalsie",
+		"title": "BISOP",
 		"order": 0,
 		"strokecolor": "0000FF",
 		"fillcolor": "0000FF",
 		"latlngarray": [
-			{ "lat": -63.508, "lng": -47.328 },
-			{ "lat": -63.052, "lng": -46.156 },
-			{ "lat": -62.822, "lng": -45.398 },
-			{ "lat": -62.198, "lng": -42.893 },
-			{ "lat": -61.928, "lng": -41.727 },
-			{ "lat": -61.762, "lng": -40.837 },
-			{ "lat": -61.535, "lng": -39.296 },
-			{ "lat": -61.404, "lng": -37.099 },
-			{ "lat": -61.41, "lng": -33.77 },
-			{ "lat": -61.378, "lng": -21.553 },
-			{ "lat": -61.367, "lng": -16.983 },
-			{ "lat": -61.692, "lng": -16.301 },
-			{ "lat": -61.744, "lng": -13.643 },
-			{ "lat": -61.941, "lng": -12.434 },
-			{ "lat": -64.208, "lng": -14.126 },
-			{ "lat": -64.682, "lng": -13.533 },
-			{ "lat": -65.167, "lng": -10.501 },
-			{ "lat": -66.958, "lng": -12.193 },
-			{ "lat": -67.376, "lng": -11.643 },
-			{ "lat": -67.761, "lng": -8.919 },
-			{ "lat": -68.506, "lng": -9.029 },
-			{ "lat": -68.506, "lng": -12.83 },
-			{ "lat": -68.594, "lng": -17.29 },
-			{ "lat": -68.594, "lng": -22.322 },
-			{ "lat": -68.596, "lng": -23.226 },
-			{ "lat": -69.275, "lng": -23.577 },
-			{ "lat": -69.291, "lng": -25.994 },
-			{ "lat": -69.492, "lng": -27.093 },
-			{ "lat": -70.453, "lng": -27.046 },
-			{ "lat": -70.459, "lng": -28.076 },
-			{ "lat": -70.444, "lng": -32.998 },
-			{ "lat": -70.453, "lng": -33.466 },
-			{ "lat": -70.867, "lng": -33.796 },
-			{ "lat": -71.386, "lng": -33.95 },
-			{ "lat": -71.816, "lng": -34.06 },
-			{ "lat": -71.903, "lng": -34.693 },
-			{ "lat": -72.08, "lng": -35.243 },
-			{ "lat": -72.127, "lng": -35.792 },
-			{ "lat": -71.454, "lng": -36.825 },
-			{ "lat": -70.714, "lng": -36.715 },
-			{ "lat": -70.34, "lng": -37.396 },
-			{ "lat": -70.072, "lng": -39.132 },
-			{ "lat": -69.31, "lng": -40.472 },
-			{ "lat": -68.902, "lng": -38.517 },
-			{ "lat": -68.791, "lng": -38.363 },
-			{ "lat": -68.632, "lng": -38.627 },
-			{ "lat": -68.089, "lng": -39.505 },
-			{ "lat": -68.023, "lng": -39.703 },
-			{ "lat": -67.808, "lng": -40.099 },
-			{ "lat": -67.883, "lng": -40.527 },
-			{ "lat": -67.8, "lng": -40.692 },
-			{ "lat": -67.453, "lng": -39.077 },
-			{ "lat": -67.322, "lng": -38.484 },
-			{ "lat": -66.623, "lng": -39.467 },
-			{ "lat": -66.386, "lng": -39.445 },
-			{ "lat": -66.386, "lng": -36.567 },
-			{ "lat": -66.112, "lng": -36.413 },
-			{ "lat": -65.116, "lng": -36.401 },
-			{ "lat": -65.12, "lng": -39.631 },
-			{ "lat": -65.157, "lng": -39.917 },
-			{ "lat": -65.153, "lng": -42.081 },
-			{ "lat": -65.12, "lng": -42.455 },
-			{ "lat": -64.906, "lng": -43.638 },
-			{ "lat": -64.662, "lng": -44.803 },
-			{ "lat": -64.541, "lng": -45.329 },
-			{ "lat": -64.398, "lng": -45.682 },
-			{ "lat": -64.119, "lng": -46.141 }
-		],
-		"video": {
-			"yt_id": "aFfZnwEyknw",
-			"yt_user_display": "LeGrizzly",
-			"yt_user_link": "LeGrizzly"
-		}
+			{"lat": -71.498, "lng": 17.044},
+			{"lat": -70.261, "lng": 17.132},
+			{"lat": -69.856, "lng": 17.813},
+			{"lat": -69.605, "lng": 18.714},
+			{"lat": -69.436, "lng": 19.879},
+			{"lat": -69.443, "lng": 20.757},
+			{"lat": -69.962, "lng": 20.867},
+			{"lat": -71.089, "lng": 20.494},
+			{"lat": -71.489, "lng": 21.025}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "WOO",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -74.500, "lng": -19.376},
+			{"lat": -75.550, "lng": -14.257},
+			{"lat": -76.115, "lng": -12.433},
+			{"lat": -76.288, "lng": -11.906},
+			{"lat": -76.308, "lng": -10.961},
+			{"lat": -76.041, "lng": -10.653},
+			{"lat": -75.768, "lng": -9.818},
+			{"lat": -75.556, "lng": -9.071},
+			{"lat": -75.161, "lng": -11.972},
+			{"lat": -74.132, "lng": -16.652},
+			{"lat": -74.394, "lng": -19.003}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Morning WOOD",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -58.448, "lng": -60.265},
+			{"lat": -57.326, "lng": -58.595},
+			{"lat": -56.341, "lng": -60.177},
+			{"lat": -56.837, "lng": -61.034},
+			{"lat": -57.409, "lng": -61.320},
+			{"lat": -57.810, "lng": -61.430}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Asian Boyz",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -73.361, "lng": -0.838},
+			{"lat": -72.953, "lng": 0.217},
+			{"lat": -73.253, "lng": 2.326},
+			{"lat": -73.367, "lng": 2.194},
+			{"lat": -73.473, "lng": 1.118},
+			{"lat": -73.641, "lng": 0.481}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "0'51",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -72.921, "lng": 0.393},
+			{"lat": -72.687, "lng": 1.030},
+			{"lat": -72.940, "lng": 2.172},
+			{"lat": -73.367, "lng": 2.282}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Jboys",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -74.003, "lng": 2.854},
+			{"lat": -73.342, "lng": 2.963},
+			{"lat": -73.367, "lng": 4.414},
+			{"lat": -73.997, "lng": 4.216}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "0'12",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -71.063, "lng": -17.403},
+			{"lat": -71.056, "lng": -11.887},
+			{"lat": -71.226, "lng": -11.009},
+			{"lat": -71.500, "lng": -11.690},
+			{"lat": -71.507, "lng": -17.468}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Français",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -34.092, "lng": -21.193},
+			{"lat": -35.481, "lng": -20.820},
+			{"lat": -36.211, "lng": -19.985},
+			{"lat": -35.033, "lng": -18.271},
+			{"lat": -33.782, "lng": -18.425},
+			{"lat": -32.975, "lng": -19.238}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Italien",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -48.388, "lng": -46.054},
+			{"lat": -48.446, "lng": -43.681},
+			{"lat": -49.299, "lng": -44.033},
+			{"lat": -49.342, "lng": -45.878}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Marivales",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": -43.049, "lng": -71.880},
+			{"lat": -43.433, "lng": -70.550},
+			{"lat": -44.883, "lng": -69.902},
+			{"lat": -45.069, "lng": -71.715},
+			{"lat": -43.759, "lng": -72.078}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Grim Bastard",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": 43.841, "lng": 41.068},
+			{"lat": 44.244, "lng": 42.101},
+			{"lat": 43.019, "lng": 43.101},
+			{"lat": 42.568, "lng": 42.024}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "SOA",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": 49.615, "lng": 58.235},
+			{"lat": 49.415, "lng": 59.026},
+			{"lat": 48.185, "lng": 58.411},
+			{"lat": 48.375, "lng": 57.357}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "O'Neil",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": 64.358, "lng": 53.638},
+			{"lat": 63.124, "lng": 56.978},
+			{"lat": 62.542, "lng": 56.670},
+			{"lat": 62.010, "lng": 55.374},
+			{"lat": 60.993, "lng": 55.594},
+			{"lat": 63.134, "lng": 50.826}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Flores",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": 76.889, "lng": 26.402},
+			{"lat": 76.397, "lng": 31.874},
+			{"lat": 75.643, "lng": 30.995},
+			{"lat": 76.141, "lng": 24.930}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Los Peneros",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": 76.996, "lng": -16.662},
+			{"lat": 76.587, "lng": -14.641},
+			{"lat": 76.223, "lng": -16.256},
+			{"lat": 76.630, "lng": -18.200}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Black Vanguard",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0000FF",
+		"latlngarray": [
+			{"lat": 76.666, "lng": -20.958},
+			{"lat": 77.041, "lng": -19.859},
+			{"lat": 76.696, "lng": -18.453},
+			{"lat": 76.369, "lng": -19.848}
+		]
 	}
 ]
