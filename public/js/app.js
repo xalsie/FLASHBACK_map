@@ -105,7 +105,7 @@ $(function () {
 		// 	enabled: false,
 		// },
 		{
-			name: 'Territories',
+			name: 'Territoires',
 			icon: 'General/wall-breach.png',
 			type: 'General',
 			enabled: true,
