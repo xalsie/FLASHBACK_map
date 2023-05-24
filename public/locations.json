@@ -1,9 +1,11 @@
-[{
+[
+	{
 		"type": "Territoires",
 		"title": "BISOP",
+		"notes": "Gang",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "8f1818",
+		"fillcolor": "8f1818",
 		"latlngarray": [
 			{"lat": -71.498, "lng": 17.044},
 			{"lat": -70.261, "lng": 17.132},
@@ -19,9 +21,10 @@
 	{
 		"type": "Territoires",
 		"title": "WOO",
+		"notes": "Gang",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "410c96",
+		"fillcolor": "410c96",
 		"latlngarray": [
 			{"lat": -74.500, "lng": -19.376},
 			{"lat": -75.550, "lng": -14.257},
@@ -39,9 +42,10 @@
 	{
 		"type": "Territoires",
 		"title": "Morning WOOD",
+		"notes": "Gang",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "4a2b10",
+		"fillcolor": "4a2b10",
 		"latlngarray": [
 			{"lat": -58.448, "lng": -60.265},
 			{"lat": -57.326, "lng": -58.595},
@@ -54,9 +58,10 @@
 	{
 		"type": "Territoires",
 		"title": "Asian Boyz",
+		"notes": "Gang",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "11258a",
+		"fillcolor": "11258a",
 		"latlngarray": [
 			{"lat": -73.361, "lng": -0.838},
 			{"lat": -72.953, "lng": 0.217},
@@ -69,9 +74,10 @@
 	{
 		"type": "Territoires",
 		"title": "0'51",
+		"notes": "Gang",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "5c5c5c",
+		"fillcolor": "5c5c5c",
 		"latlngarray": [
 			{"lat": -72.921, "lng": 0.393},
 			{"lat": -72.687, "lng": 1.030},
@@ -82,9 +88,10 @@
 	{
 		"type": "Territoires",
 		"title": "Jboys",
+		"notes": "Gang",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "e0e0e0",
+		"fillcolor": "e0e0e0",
 		"latlngarray": [
 			{"lat": -74.003, "lng": 2.854},
 			{"lat": -73.342, "lng": 2.963},
@@ -95,9 +102,10 @@
 	{
 		"type": "Territoires",
 		"title": "0'12",
+		"notes": "Gang",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "1c6aa6",
+		"fillcolor": "1c6aa6",
 		"latlngarray": [
 			{"lat": -71.063, "lng": -17.403},
 			{"lat": -71.056, "lng": -11.887},
@@ -109,9 +117,10 @@
 	{
 		"type": "Territoires",
 		"title": "Français",
+		"notes": "Organisation",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "141414",
+		"fillcolor": "141414",
 		"latlngarray": [
 			{"lat": -34.092, "lng": -21.193},
 			{"lat": -35.481, "lng": -20.820},
@@ -124,9 +133,10 @@
 	{
 		"type": "Territoires",
 		"title": "Italien",
+		"notes": "Organisation",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "141414",
+		"fillcolor": "141414",
 		"latlngarray": [
 			{"lat": -48.388, "lng": -46.054},
 			{"lat": -48.446, "lng": -43.681},
@@ -137,9 +147,10 @@
 	{
 		"type": "Territoires",
 		"title": "Marivales",
+		"notes": "Organisation",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "141414",
+		"fillcolor": "141414",
 		"latlngarray": [
 			{"lat": -43.049, "lng": -71.880},
 			{"lat": -43.433, "lng": -70.550},
@@ -151,9 +162,10 @@
 	{
 		"type": "Territoires",
 		"title": "Grim Bastard",
+		"notes": "Organisation",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "141414",
+		"fillcolor": "141414",
 		"latlngarray": [
 			{"lat": 43.841, "lng": 41.068},
 			{"lat": 44.244, "lng": 42.101},
@@ -164,9 +176,10 @@
 	{
 		"type": "Territoires",
 		"title": "SOA",
+		"notes": "Organisation",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "141414",
+		"fillcolor": "141414",
 		"latlngarray": [
 			{"lat": 49.615, "lng": 58.235},
 			{"lat": 49.415, "lng": 59.026},
@@ -177,9 +190,10 @@
 	{
 		"type": "Territoires",
 		"title": "O'Neil",
+		"notes": "Organisation",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "141414",
+		"fillcolor": "141414",
 		"latlngarray": [
 			{"lat": 64.358, "lng": 53.638},
 			{"lat": 63.124, "lng": 56.978},
@@ -192,9 +206,10 @@
 	{
 		"type": "Territoires",
 		"title": "Flores",
+		"notes": "Organisation",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "141414",
+		"fillcolor": "141414",
 		"latlngarray": [
 			{"lat": 76.889, "lng": 26.402},
 			{"lat": 76.397, "lng": 31.874},
@@ -205,9 +220,10 @@
 	{
 		"type": "Territoires",
 		"title": "Los Peneros",
+		"notes": "Gang",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "b39e84",
+		"fillcolor": "b39e84",
 		"latlngarray": [
 			{"lat": 76.996, "lng": -16.662},
 			{"lat": 76.587, "lng": -14.641},
@@ -218,14 +234,164 @@
 	{
 		"type": "Territoires",
 		"title": "Black Vanguard",
+		"notes": "Gang",
 		"order": 0,
-		"strokecolor": "0000FF",
-		"fillcolor": "0000FF",
+		"strokecolor": "171717",
+		"fillcolor": "171717",
 		"latlngarray": [
 			{"lat": 76.666, "lng": -20.958},
 			{"lat": 77.041, "lng": -19.859},
 			{"lat": 76.696, "lng": -18.453},
 			{"lat": 76.369, "lng": -19.848}
 		]
+	},
+	{
+		"type": "Zones de vente",
+		"title": "Paleto",
+		"notes": "Zone de vente a Paleto Bay",
+		"order": 0,
+		"strokecolor": "FFDCDC",
+		"fillcolor": "FFDCDC",
+		"latlngarray": [
+			{"lat": 72.697, "lng": -32.137},
+			{"lat": 72.697, "lng": -4.495},
+			{"lat": 79.162, "lng": -4.627},
+			{"lat": 79.162, "lng": -31.478}
+		]
+	},
+	{
+		"type": "Zones de vente",
+		"title": "Chiliad Mountain",
+		"notes": "Zone de vente a Chiliad Mountain",
+		"order": 0,
+		"strokecolor": "FFB5BB",
+		"fillcolor": "FFB5BB",
+		"latlngarray": [
+			{"lat": 58.908, "lng": -53.219},
+			{"lat": 58.908, "lng": -40.255},
+			{"lat": 64.908, "lng": -40.475},
+			{"lat": 64.908, "lng": -53.263}
+		]
+	},
+	{
+		"type": "Zones de vente",
+		"title": "Grapeseed",
+		"notes": "Zone de vente a Grapeseed",
+		"order": 0,
+		"strokecolor": "FF8C70",
+		"fillcolor": "FF8C70",
+		"latlngarray": [
+			{"lat": 48.647, "lng": 28.718},
+			{"lat": 48.647, "lng": 71.082},
+			{"lat": 68.015, "lng": 71.609},
+			{"lat": 68.015, "lng": 28.367}
+		]
+	},
+	{
+		"type": "Zones de vente",
+		"title": "SandyShore Nord",
+		"notes": "Zone de vente a SandyShore",
+		"order": 0,
+		"strokecolor": "5C573B",
+		"fillcolor": "5C573B",
+		"latlngarray": [
+			{"lat": 29.477, "lng": 25.291},
+			{"lat": 29.477, "lng": 48.845},
+			{"lat": 48.414, "lng": 48.494},
+			{"lat": 48.414, "lng": 24.412}
+		]
+	},
+	{
+		"type": "Zones de vente",
+		"title": "SandyShore Sud",
+		"notes": "Zone de vente a SandyShore",
+		"order": 0,
+		"strokecolor": "C1FF79",
+		"fillcolor": "C1FF79",
+		"latlngarray": [
+			{"lat": 10.110, "lng": -17.459},
+			{"lat": 10.110, "lng": 23.762},
+			{"lat": 20.191, "lng": 24.113},
+			{"lat": 20.191, "lng": -17.019}
+		]
+	},
+	
+	
+	
+	
+	
+	{
+		"type": "Zones de vente",
+		"title": "Cor Center",
+		"notes": "Zone de vente a Cor Center",
+		"order": 0,
+		"strokecolor": "5774BA",
+		"fillcolor": "5774BA",
+		"latlngarray": [
+			{"lat": -52.343, "lng": -88.696},
+			{"lat": -52.343, "lng": -74.897},
+			{"lat": -43.029, "lng": -74.897},
+			{"lat": -43.029, "lng": -88.696}
+		]
+	},
+	{
+		"type": "Zones de vente",
+		"title": "Fete forraine",
+		"notes": "Zone de vente a la Fete forraine",
+		"order": 0,
+		"strokecolor": "9E7662",
+		"fillcolor": "9E7662",
+		"latlngarray": [
+			{"lat": -74.858, "lng": -69.069},
+			{"lat": -74.858, "lng": -48.591},
+			{"lat": -62.576, "lng": -48.591},
+			{"lat": -62.576, "lng": -69.069}
+		]
+	},
+	{
+		"type": "Zones de vente",
+		"title": "War Dog",
+		"notes": "Zone de vente a War Dog",
+		"order": 0,
+		"strokecolor": "98E4C6",
+		"fillcolor": "98E4C6",
+		"latlngarray": [
+			{"lat": -79.243, "lng": 2.436},
+			{"lat": -79.243, "lng": 15.488},
+			{"lat": -71.492, "lng": 15.488},
+			{"lat": -71.492, "lng": 2.436}
+		]
+	},
+	{
+		"type": "Zones de vente",
+		"title": "La mesa",
+		"notes": "Zone de vente a La mesa",
+		"order": 0,
+		"strokecolor": "E4845C",
+		"fillcolor": "E4845C",
+		"latlngarray": [
+			{"lat": -64.211, "lng": 9.951},
+			{"lat": -64.211, "lng": 25.288},
+			{"lat": -57.569, "lng": 25.288},
+			{"lat": -57.569, "lng": 9.951}
+		]
+	},
+	{
+		"type": "Zones de vente",
+		"title": "VineWood Boulvard",
+		"notes": "Zone de vente sur VineWood Boulvard",
+		"order": 0,
+		"strokecolor": "FF8BBE",
+		"fillcolor": "FF8BBE",
+		"latlngarray": [
+			{"lat": -53.637, "lng": -43.046},
+			{"lat": -53.637, "lng": 8.413},
+			{"lat": -44.394, "lng": 8.413},
+			{"lat": -44.394, "lng": -43.046}
+		]
 	}
+
+
+
+	
 ]
