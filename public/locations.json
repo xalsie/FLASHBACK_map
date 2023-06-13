@@ -99,36 +99,6 @@
 	},
 	{
 		"type": "Territoires",
-		"title": "Grim Bastard",
-		"notes": "Organisation",
-		"order": 0,
-		"strokecolor": "141414",
-		"fillcolor": "141414",
-		"latlngarray": [
-			{"lat": 43.841, "lng": 41.068},
-			{"lat": 44.244, "lng": 42.101},
-			{"lat": 43.019, "lng": 43.101},
-			{"lat": 42.568, "lng": 42.024}
-		]
-	},
-	{
-		"type": "Territoires",
-		"title": "O'Neil",
-		"notes": "Organisation",
-		"order": 0,
-		"strokecolor": "141414",
-		"fillcolor": "141414",
-		"latlngarray": [
-			{"lat": 64.358, "lng": 53.638},
-			{"lat": 63.124, "lng": 56.978},
-			{"lat": 62.542, "lng": 56.670},
-			{"lat": 62.010, "lng": 55.374},
-			{"lat": 60.993, "lng": 55.594},
-			{"lat": 63.134, "lng": 50.826}
-		]
-	},
-	{
-		"type": "Territoires",
 		"title": "Los Peneros",
 		"notes": "Gang",
 		"order": 0,
@@ -229,7 +199,65 @@
 	},
 
 
-	
+
+	{
+		"type": "Territoires",
+		"title": "Grim Bastard",
+		"notes": "Organisation",
+		"order": 0,
+		"strokecolor": "141414",
+		"fillcolor": "141414",
+		"latlngarray": [
+			{"lat": 43.841, "lng": 41.068},
+			{"lat": 44.244, "lng": 42.101},
+			{"lat": 43.019, "lng": 43.101},
+			{"lat": 42.568, "lng": 42.024}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "O'Neil",
+		"notes": "Organisation",
+		"order": 0,
+		"strokecolor": "141414",
+		"fillcolor": "141414",
+		"latlngarray": [
+			{"lat": 64.358, "lng": 53.638},
+			{"lat": 63.124, "lng": 56.978},
+			{"lat": 62.542, "lng": 56.670},
+			{"lat": 62.010, "lng": 55.374},
+			{"lat": 60.993, "lng": 55.594},
+			{"lat": 63.134, "lng": 50.826}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "69 MOB",
+		"notes": "Organisation",
+		"order": 0,
+		"strokecolor": "141414",
+		"fillcolor": "141414",
+		"latlngarray": [
+			{"lat": -26.963, "lng": 21.859},
+			{"lat": -27.159, "lng": 29.989},
+			{"lat": -32.382, "lng": 29.682},
+			{"lat": -32.530, "lng": 22.079}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "AOD",
+		"notes": "Organisation",
+		"order": 0,
+		"strokecolor": "141414",
+		"fillcolor": "141414",
+		"latlngarray": [
+			{"lat": -72.500, "lng": -49.811},
+			{"lat": -72.160, "lng": -48.284},
+			{"lat": -72.684, "lng": -47.075},
+			{"lat": -72.992, "lng": -48.679}
+		]
+	},
 	{
 		"type": "Zones de vente",
 		"title": "Paleto",
@@ -244,6 +272,9 @@
 			{"lat": 79.162, "lng": -31.478}
 		]
 	},
+
+
+
 	{
 		"type": "Zones de vente",
 		"title": "Chiliad Mountain",
@@ -370,8 +401,4 @@
 			{"lat": -44.394, "lng": -43.046}
 		]
 	}
-
-
-
-	
 ]
