@@ -1,6 +1,6 @@
 [
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "WOO",
         "notes": "Gang",
         "order": 0,
@@ -21,7 +21,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "Asian Boyz",
         "notes": "Gang",
         "order": 0,
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "0'51",
         "notes": "Gang",
         "order": 0,
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "Jboys",
         "notes": "Gang",
         "order": 0,
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "Los Peneros",
         "notes": "Gang",
         "order": 0,
@@ -81,7 +81,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "Black Vanguard",
         "notes": "Gang",
         "order": 0,
@@ -95,7 +95,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "Latin King",
         "notes": "Gang",
         "order": 0,
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "Asian Boyz",
         "notes": "Gang",
         "order": 0,
@@ -124,7 +124,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "Kavac",
         "notes": "Gang",
         "order": 0,
@@ -138,7 +138,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "MC Diamond",
         "notes": "Gang",
         "order": 0,
@@ -152,7 +152,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Gangs",
         "title": "KSS",
         "notes": "Gang",
         "order": 0,
@@ -216,7 +216,7 @@
 
 
     {
-        "type": "Territoires",
+        "type": "Organisations",
         "title": "Grim Bastard",
         "notes": "Organisation",
         "order": 0,
@@ -230,7 +230,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Organisations",
         "title": "O'Neil",
         "notes": "Organisation",
         "order": 0,
@@ -246,7 +246,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Organisations",
         "title": "69 MOB",
         "notes": "Organisation",
         "order": 0,
@@ -260,7 +260,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Organisations",
         "title": "AOD",
         "notes": "Organisation",
         "order": 0,
@@ -274,7 +274,7 @@
         ]
     },
     {
-        "type": "Territoires",
+        "type": "Organisations",
         "title": "Spirito Santo",
         "notes": "Organisation",
         "order": 0,
