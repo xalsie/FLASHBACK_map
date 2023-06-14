@@ -1,25 +1,6 @@
 [
 	{
 		"type": "Territoires",
-		"title": "BISOP",
-		"notes": "Gang",
-		"order": 0,
-		"strokecolor": "8f1818",
-		"fillcolor": "8f1818",
-		"latlngarray": [
-			{"lat": -71.498, "lng": 17.044},
-			{"lat": -70.261, "lng": 17.132},
-			{"lat": -69.856, "lng": 17.813},
-			{"lat": -69.605, "lng": 18.714},
-			{"lat": -69.436, "lng": 19.879},
-			{"lat": -69.443, "lng": 20.757},
-			{"lat": -69.962, "lng": 20.867},
-			{"lat": -71.089, "lng": 20.494},
-			{"lat": -71.489, "lng": 21.025}
-		]
-	},
-	{
-		"type": "Territoires",
 		"title": "WOO",
 		"notes": "Gang",
 		"order": 0,
@@ -79,10 +60,12 @@
 		"strokecolor": "5c5c5c",
 		"fillcolor": "5c5c5c",
 		"latlngarray": [
-			{"lat": -72.921, "lng": 0.393},
-			{"lat": -72.687, "lng": 1.030},
-			{"lat": -72.940, "lng": 2.172},
-			{"lat": -73.367, "lng": 2.282}
+			{"lat": -72.680, "lng": 1.069},
+			{"lat": -72.927, "lng": 2.168},
+			{"lat": -73.376, "lng": 2.234},
+			{"lat": -73.482, "lng": 1.113},
+			{"lat": -73.638, "lng": 0.542},
+			{"lat": -73.354, "lng": -0.853}
 		]
 	},
 	{
@@ -116,109 +99,6 @@
 	},
 	{
 		"type": "Territoires",
-		"title": "Français",
-		"notes": "Organisation",
-		"order": 0,
-		"strokecolor": "141414",
-		"fillcolor": "141414",
-		"latlngarray": [
-			{"lat": -34.092, "lng": -21.193},
-			{"lat": -35.481, "lng": -20.820},
-			{"lat": -36.211, "lng": -19.985},
-			{"lat": -35.033, "lng": -18.271},
-			{"lat": -33.782, "lng": -18.425},
-			{"lat": -32.975, "lng": -19.238}
-		]
-	},
-	{
-		"type": "Territoires",
-		"title": "Italien",
-		"notes": "Organisation",
-		"order": 0,
-		"strokecolor": "141414",
-		"fillcolor": "141414",
-		"latlngarray": [
-			{"lat": -48.388, "lng": -46.054},
-			{"lat": -48.446, "lng": -43.681},
-			{"lat": -49.299, "lng": -44.033},
-			{"lat": -49.342, "lng": -45.878}
-		]
-	},
-	{
-		"type": "Territoires",
-		"title": "Marivales",
-		"notes": "Organisation",
-		"order": 0,
-		"strokecolor": "141414",
-		"fillcolor": "141414",
-		"latlngarray": [
-			{"lat": -43.049, "lng": -71.880},
-			{"lat": -43.433, "lng": -70.550},
-			{"lat": -44.883, "lng": -69.902},
-			{"lat": -45.069, "lng": -71.715},
-			{"lat": -43.759, "lng": -72.078}
-		]
-	},
-	{
-		"type": "Territoires",
-		"title": "Grim Bastard",
-		"notes": "Organisation",
-		"order": 0,
-		"strokecolor": "141414",
-		"fillcolor": "141414",
-		"latlngarray": [
-			{"lat": 43.841, "lng": 41.068},
-			{"lat": 44.244, "lng": 42.101},
-			{"lat": 43.019, "lng": 43.101},
-			{"lat": 42.568, "lng": 42.024}
-		]
-	},
-	{
-		"type": "Territoires",
-		"title": "SOA",
-		"notes": "Organisation",
-		"order": 0,
-		"strokecolor": "141414",
-		"fillcolor": "141414",
-		"latlngarray": [
-			{"lat": 49.615, "lng": 58.235},
-			{"lat": 49.415, "lng": 59.026},
-			{"lat": 48.185, "lng": 58.411},
-			{"lat": 48.375, "lng": 57.357}
-		]
-	},
-	{
-		"type": "Territoires",
-		"title": "O'Neil",
-		"notes": "Organisation",
-		"order": 0,
-		"strokecolor": "141414",
-		"fillcolor": "141414",
-		"latlngarray": [
-			{"lat": 64.358, "lng": 53.638},
-			{"lat": 63.124, "lng": 56.978},
-			{"lat": 62.542, "lng": 56.670},
-			{"lat": 62.010, "lng": 55.374},
-			{"lat": 60.993, "lng": 55.594},
-			{"lat": 63.134, "lng": 50.826}
-		]
-	},
-	{
-		"type": "Territoires",
-		"title": "Flores",
-		"notes": "Organisation",
-		"order": 0,
-		"strokecolor": "141414",
-		"fillcolor": "141414",
-		"latlngarray": [
-			{"lat": 76.889, "lng": 26.402},
-			{"lat": 76.397, "lng": 31.874},
-			{"lat": 75.643, "lng": 30.995},
-			{"lat": 76.141, "lng": 24.930}
-		]
-	},
-	{
-		"type": "Territoires",
 		"title": "Los Peneros",
 		"notes": "Gang",
 		"order": 0,
@@ -246,6 +126,139 @@
 		]
 	},
 	{
+		"type": "Territoires",
+		"title": "Latin King",
+		"notes": "Gang",
+		"order": 0,
+		"strokecolor": "f9e900",
+		"fillcolor": "f9e900",
+		"latlngarray": [
+			{"lat": -76.601, "lng": -7.755},
+			{"lat": -75.762, "lng": -4.679},
+			{"lat": -76.540, "lng": -1.339},
+			{"lat": -77.131, "lng": -3.625},
+			{"lat": -77.135, "lng": -5.294}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "Asian Boyz",
+		"notes": "Gang",
+		"order": 0,
+		"strokecolor": "1c6aa6",
+		"fillcolor": "1c6aa6",
+		"latlngarray": [
+			{"lat": -72.689, "lng": 8.719},
+			{"lat": -73.274, "lng": 6.456},
+			{"lat": -74.028, "lng": 6.016},
+			{"lat": -74.143, "lng": 8.565}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "Kavac",
+		"notes": "Gang",
+		"order": 0,
+		"strokecolor": "171717",
+		"fillcolor": "171717",
+		"latlngarray": [
+			{"lat": -55.905, "lng": 12.583},
+			{"lat": -56.346, "lng": 13.802},
+			{"lat": -56.956, "lng": 13.022},
+			{"lat": -56.589, "lng": 11.814}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "MC Diamond",
+		"notes": "Gang",
+		"order": 0,
+		"strokecolor": "171717",
+		"fillcolor": "171717",
+		"latlngarray": [
+			{"lat": -54.373, "lng": 12.879},
+			{"lat": -54.851, "lng": 15.329},
+			{"lat": -55.936, "lng": 14.088},
+			{"lat": -55.197, "lng": 12.011}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "KSS",
+		"notes": "Gang",
+		"order": 0,
+		"strokecolor": "FFA500",
+		"fillcolor": "FFA500",
+		"latlngarray": [
+			{"lat": -60.656, "lng": 22.668},
+			{"lat": -61.254, "lng": 25.481},
+			{"lat": -61.809, "lng": 26.074},
+			{"lat": -62.920, "lng": 25.415},
+			{"lat": -62.364, "lng": 22.141}
+		]
+	},
+
+
+
+	{
+		"type": "Territoires",
+		"title": "Grim Bastard",
+		"notes": "Organisation",
+		"order": 0,
+		"strokecolor": "141414",
+		"fillcolor": "141414",
+		"latlngarray": [
+			{"lat": 43.841, "lng": 41.068},
+			{"lat": 44.244, "lng": 42.101},
+			{"lat": 43.019, "lng": 43.101},
+			{"lat": 42.568, "lng": 42.024}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "O'Neil",
+		"notes": "Organisation",
+		"order": 0,
+		"strokecolor": "141414",
+		"fillcolor": "141414",
+		"latlngarray": [
+			{"lat": 64.358, "lng": 53.638},
+			{"lat": 63.124, "lng": 56.978},
+			{"lat": 62.542, "lng": 56.670},
+			{"lat": 62.010, "lng": 55.374},
+			{"lat": 60.993, "lng": 55.594},
+			{"lat": 63.134, "lng": 50.826}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "69 MOB",
+		"notes": "Organisation",
+		"order": 0,
+		"strokecolor": "141414",
+		"fillcolor": "141414",
+		"latlngarray": [
+			{"lat": -26.963, "lng": 21.859},
+			{"lat": -27.159, "lng": 29.989},
+			{"lat": -32.382, "lng": 29.682},
+			{"lat": -32.530, "lng": 22.079}
+		]
+	},
+	{
+		"type": "Territoires",
+		"title": "AOD",
+		"notes": "Organisation",
+		"order": 0,
+		"strokecolor": "141414",
+		"fillcolor": "141414",
+		"latlngarray": [
+			{"lat": -72.500, "lng": -49.811},
+			{"lat": -72.160, "lng": -48.284},
+			{"lat": -72.684, "lng": -47.075},
+			{"lat": -72.992, "lng": -48.679}
+		]
+	},
+	{
 		"type": "Zones de vente",
 		"title": "Paleto",
 		"notes": "Zone de vente a Paleto Bay",
@@ -259,6 +272,9 @@
 			{"lat": 79.162, "lng": -31.478}
 		]
 	},
+
+
+
 	{
 		"type": "Zones de vente",
 		"title": "Chiliad Mountain",
@@ -315,11 +331,6 @@
 			{"lat": 20.191, "lng": -17.019}
 		]
 	},
-	
-	
-	
-	
-	
 	{
 		"type": "Zones de vente",
 		"title": "Cor Center",
@@ -390,8 +401,4 @@
 			{"lat": -44.394, "lng": -43.046}
 		]
 	}
-
-
-
-	
 ]
