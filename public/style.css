@@ -34,10 +34,6 @@ header {
 	color: white;
 }
 
-header p {
-	/*font-weight: bold;*/
-}
-
 header li {
 	display: inline-block;
 	margin-right: 5px;
@@ -169,7 +165,6 @@ header a.active {
 .types .type img {
 	width: 16px;
 	position: relative;
-	top: 4px;
 	-webkit-filter: grayscale(1);
 	opacity: 0.2;
 }
@@ -185,7 +180,6 @@ header a.active {
 	background-image: url(icons/signpost.png);
 	display: inline-block;
 	background-position: 0 61px;
-	float: right;
 }
 
 .types .details {
@@ -226,6 +220,24 @@ body {
 }
 #map {
 	height: 100%;
+}
+
+.btn-flashback {
+    color: #fff;
+    background-color: #8728c4;
+    border-color: #8728c4;
+}
+
+.btn-flashback:hover {
+	color: #fff;
+    background-color: #6c209c;
+    border-color: #611b8d;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #8728c4;
 }
 
 /*

@@ -4,13 +4,7 @@ $(function () {
 	var showCoordinations = true;
 	var $types = $('.types');
 	var onResize = function () {
-		$types.css({
-			maxHeight:
-				$(window).height() -
-				parseInt($types.css('marginTop'), 10) -
-				parseInt($types.css('marginBottom'), 10) -
-				parseInt($('header').height()) +
-				6,
+		$types.css({maxHeight: $(window).height() - parseInt($types.css('marginTop'), 10) - parseInt($types.css('marginBottom'), 10) - parseInt($('header').height()) + 6,
 		});
 	};
 
@@ -90,7 +84,6 @@ $(function () {
 	var CategoryModel = Backbone.Model.extend({});
 	var CategoriesCollection = Backbone.Collection.extend({
 		model: CategoryModel,
-
 		forView: function (type) {
 			var g = this.groupBy('type');
 			return _(g).map(function (categories, type) {
@@ -105,70 +98,87 @@ $(function () {
 	});
 
 	var categories = (window.cats = new CategoriesCollection([
+        {
+            name: 'Organisations',
+            icon: 'General/wall-breach.png',
+            type: 'General',
+            enabled: true,
+        },
 		{
-			name: 'Neighborhoods',
-			icon: 'radar/radar_warehouse.png',
-			type: 'General',
-			enabled: false,
-		},
-		{
-			name: 'Territories',
-			icon: 'General/wall-breach.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Neutral',
-			icon: 'General/glitches.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Automotive',
-			icon: 'radar/radar_acsr_race_hotring.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Heists',
-			icon: 'radar/radar_heist.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Legal',
-			icon: 'radar/radar_police_station.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Medical',
-			icon: 'radar/radar_hospital.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Restaurants',
-			icon: 'radar/radar_bar.png',
-			type: 'General',
-			enabled: true,
-		},
-		/*
-		{
-			name: 'Deprecated',
-			icon: 'General/glitches.png',
-			type: 'General',
-			enabled: false,
-		},
-		*/
-	]));
+            name: 'Gangs',
+            icon: 'General/wall-breach.png',
+            type: 'General',
+            enabled: true,
+        },
+        {
+            name: 'Petite Frappe',
+            icon: 'General/wall-breach.png',
+            type: 'General',
+            enabled: true,
+        },
+        {
+            name: 'Zones de vente',
+            icon: 'radar/radar_dollar.png',
+            type: 'General',
+            enabled: false,
+        },
+		// {
+        // 	name: 'Legal',
+        // 	icon: 'radar/radar_police_station.png',
+        // 	type: 'General',
+        // 	enabled: true,
+        // },
+        // {
+        // 	name: 'Neighborhoods',
+        // 	icon: 'radar/radar_warehouse.png',
+        // 	type: 'General',
+        // 	enabled: false,
+        // },
+        // {
+        // 	name: 'Neutral',
+        // 	icon: 'General/glitches.png',
+        // 	type: 'General',
+        // 	enabled: true,
+        // },
+        // {
+        // 	name: 'Automotive',
+        // 	icon: 'radar/radar_acsr_race_hotring.png',
+        // 	type: 'General',
+        // 	enabled: true,
+        // },
+        // {
+        // 	name: 'Heists',
+        // 	icon: 'radar/radar_heist.png',
+        // 	type: 'General',
+        // 	enabled: true,
+        // },
+        // {
+        // 	name: 'Medical',
+        // 	icon: 'radar/radar_hospital.png',
+        // 	type: 'General',
+        // 	enabled: true,
+        // },
+        // {
+        // 	name: 'Restaurants',
+        // 	icon: 'radar/radar_bar.png',
+        // 	type: 'General',
+        // 	enabled: true,
+        // },
+        /*
+        {
+            name: 'Deprecated',
+            icon: 'General/glitches.png',
+            type: 'General',
+            enabled: false,
+        },
+        */
+    ]));
 
 	var showingLabels;
 	var CategoriesView = Backbone.View.extend({
 		initialize: function () {
 			this.template = Handlebars.compile($('#categoriesTemplate').html());
 		},
-
 		render: function () {
 			this.$el.html(
 				this.template({
@@ -178,12 +188,10 @@ $(function () {
 			$('#typeDetails').hide();
 			return this;
 		},
-
 		events: {
 			'change input': 'toggleLocations',
 			'click .details': 'showDetails',
 		},
-
 		toggleLocations: function (e) {
 			var $e = $(e.currentTarget),
 				type = $e.val(),
@@ -428,17 +436,7 @@ $(function () {
 			if (!coord) {
 				return null;
 			}
-			return (
-				'tiles/' +
-				this.mapType.toLowerCase() +
-				'/' +
-				zoomLevel +
-				'/' +
-				coord.x +
-				'_' +
-				coord.y +
-				'.png'
-			);
+			return ( 'tiles/' + this.mapType.toLowerCase() + '/' + zoomLevel + '/' + coord.x + '_' + coord.y + '.png');
 		},
 
 		normalizeCoordinates: function (coord, zoom) {
@@ -579,36 +577,6 @@ $(function () {
 			.value();
 	});
 });
-
-function printArray() {
-	var msg =
-		'Submit new regions here:\n' +
-		'https://github.com/skyrossm/np-gangmap/issues\n\n' +
-		'Right click the map to add points to the region. You may have to toggle regions off to be able to right click on the bottom layer. Fill in the values marked "<edit here>" and title the new issue using the format: "Add <title> region". Copy and paste everything below this. If your browser does not support selecting the text below press F12 to open the developer console and copy it from there. (scroll down)\n\n';
-	msg +=
-		'```json\n\t{\n\t\t"type": "Territories",' +
-		'\n\t\t"title": "<edit this>",' +
-		'\n\t\t"notes": "<edit this>",' +
-		'\n\t\t"wiki_link": "https://nopixel.fandom.com/wiki/<edit this>",' +
-		'\n\t\t"order": 0,' +
-		'\n\t\t"strokecolor": "FF0000",' +
-		'\n\t\t"fillcolor": "FF0000",' +
-		'\n\t\t"latlngarray": [\n';
-	var i;
-	for (i = 0; i < window.locs.length; i++) {
-		msg +=
-			'\t\t\t{"lat": ' +
-			window.locs[i].position.lat().toFixed(3) +
-			', "lng": ' +
-			window.locs[i].position.lng().toFixed(3) +
-			'}' +
-			(window.locs.length - 1 == i ? '' : ',') +
-			'\n';
-	}
-	msg += '\t\t]' + '\n\t},\n```';
-	alert(msg);
-	console.log(msg);
-}
 
 function toggleRuler() {
 	addruler(window.map);
